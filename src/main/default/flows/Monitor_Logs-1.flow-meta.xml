@@ -10,7 +10,7 @@
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Salesforce Monitor Logs process didn&apos;t start: No matching records found</stringValue>
+                <stringValue>Salesforce Monitor Logs process didn&#39;t start: No matching records found</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -36,7 +36,7 @@
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Salesforce Monitor Logs process didn&apos;t start: Multiple matching records found</stringValue>
+                <stringValue>Salesforce Monitor Logs process didn&#39;t start: Multiple matching records found</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -235,7 +235,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -271,7 +271,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -307,7 +307,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -343,7 +343,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -379,7 +379,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -426,7 +426,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -462,12 +462,12 @@
         <name>multipleRecordsFoundTextTemplate</name>
         <text>Hello {!OrganizationName} Admin, 
 
-The Monitor Logs process is configured to start when a Log platform event message occurs. A Log message occurred, but the process didn&apos;t start because multiple records in your org match the values specified in the process&apos;s Object node.
+The Monitor Logs process is configured to start when a Log platform event message occurs. A Log message occurred, but the process didn&#39;t start because multiple records in your org match the values specified in the process&#39;s Object node.
 
 Here are the values from the Log message.
 Created By ID: {!myVariable_myEvent.CreatedById}
 
-To fix this issue, adjust the matching filters in the process&apos;s Object node.
+To fix this issue, adjust the matching filters in the process&#39;s Object node.
 
 Thank you, 
 Salesforce Process Automation</text>
@@ -477,12 +477,12 @@ Salesforce Process Automation</text>
         <name>noRecordsFoundTextTemplate</name>
         <text>Hello {!OrganizationName} Admin, 
 
-The Monitor Logs process is configured to start when a Log platform event message occurs. A Log message occurred, but the process didn&apos;t start because no records in your org match the values specified in the process&apos;s Object node.
+The Monitor Logs process is configured to start when a Log platform event message occurs. A Log message occurred, but the process didn&#39;t start because no records in your org match the values specified in the process&#39;s Object node.
 
 Here are the values from the Log message.
 Created By ID: {!myVariable_myEvent.CreatedById}
 
-To fix this issue, adjust the matching filters in the process&apos;s Object node.
+To fix this issue, adjust the matching filters in the process&#39;s Object node.
 
 Thank you, 
 Salesforce Process Automation</text>
